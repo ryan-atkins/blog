@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from textwrap import dedent
 import urllib.parse
 import re
