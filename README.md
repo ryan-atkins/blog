@@ -1,6 +1,25 @@
-# mkdocs blog
+# blog
 
-built with [mkdocs.org](https://squidfunk.github.io/mkdocs-material/).
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
+## Quick Start
+
+Install with [uv](https://github.com/astral-sh/uv)
+
+```bash
+uv install
+```
+
+Run locally
+
+```bash
+➜ blog (main) ✗ uv run mkdocs serve 
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Documentation built in 0.21 seconds
+INFO    -  [14:53:16] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO    -  [14:53:16] Serving on http://127.0.0.1:8000/
+```
 
 ## Commands
 
@@ -15,13 +34,10 @@ configure Material for MkDocs to use a different layout, this is simply the
 default.
 
 ```
-mkdocs.yml              # The configuration file.
+mkdocs.yml          # The configuration file.
 docs/
-    index.md            # The documentation homepage.
-    blog/               # The directory that all blog content goes into (first blog instance)
-        posts/          # the place to put your posts
-        author/         # Author profiles
-        .authors.yml    # Author information to be added to posts (shared betwe
-ext/                    # Directory that contains code for the custom slugs
-hooks/                  # Directory for a hook that adds social media share buttons
+    index.md        # The blog homepage.
+    posts/          # the place to put your posts
+        drafts/     # WIP draft blog posts
+    .authors.yml    # Author information to be added to posts
 ```

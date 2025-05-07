@@ -2,21 +2,20 @@
 date:
   created: 2023-12-31
   updated: 2024-01-02
-readtime: 15
+readtime: 5
 pin: true
 links:
-  - Homepage: index.md#project-layout
-  - Blog index: blog/index.md
+  - Homepage: index.md#blog
   - External links:
     - Material documentation: https://squidfunk.github.io/mkdocs-material
 categories:
-  - Holidays
+  - holidays
 tags:
   - new year
   - hogmanay
   - festive season
 authors:
-  - team
+  - ryan
 slug: ny-eve
 ---
 
