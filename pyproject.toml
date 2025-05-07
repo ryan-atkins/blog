@@ -1,0 +1,8 @@
+[project]
+name = "blog"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.6.12",
+    "mkdocs-pymdownx-material-extras>=2.8",
+]
